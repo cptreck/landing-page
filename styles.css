@@ -41,3 +41,16 @@ body {
     height: 60px;
 }
 
+.header-links ul {
+    display: flex;
+    gap: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
