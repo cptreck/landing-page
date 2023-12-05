@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="aos.css">
     <title>Spacey Space</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -26,22 +27,22 @@
                             <div>This website has some subtext that goes here under the main title. It's smaller font and the color is lower contrast</div>
                             <button>Sign up</button>
                         </div>
-                       <img src="imgs/placeholder-image.png" alt="placeholder image" width="300">
+                       <img data-aos="fade-right" src="data:image/jpeg;base64,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" alt="placeholder image" width="300">
                     </div>
                 </div>
             
-            <div class="cards">
+            <div class="cards" data-aos="fade-right">
                 <p>Some random information</p>
                 <p>this is some subtext under an illustration or image</p>
                 <p>this is some subtext under an illustration or image</p>
                 <p>this is some subtext under an illustration or image</p>
                 <p>this is some subtext under an illustration or image</p>
             </div>
-            <div class="quote">
+            <div class="quote" data-aos="fade-down">
                 <p>This is an inspiring qupte, or a testimonial from a customer. Maybe it's just filling up spave, or maybe people will...</p>
                 <p>Guy we quoted</p>
             </div>
-            <div class="action">
+            <div class="action" data-aos="fade-left">
                 <p>call to action! It's time!</p>
                 <p>Sign up for our product by clicking that button right ovber there! </p>
                 <button>Sign up</button>
@@ -53,7 +54,12 @@
         </div>
 
     </div>
-
+    <script src="aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 2000,
+      }
+      );
+    </script>
 </body>
-
 </html>
