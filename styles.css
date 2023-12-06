@@ -44,11 +44,13 @@ body {
 .header-title-image {
     display: flex;
     justify-content: center;
+    padding: 64px;
 }
 
 .header-image {
     display: flex;
      gap: 185px;
+     color: white;
 }
 
 .title-button {
@@ -68,6 +70,51 @@ button {
     background-color: #3b82f6;
     border-radius: 4px;
     border-color: #3b82f6;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.card-heading {
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 30px;
+    padding: 16px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90px;
+    height: auto;
+    gap: 4px;
+}
+
+.card img {
+    border: #3b82f6 solid 2px;
+    border-radius: 8px;
+    width: 86px;
+    height: 86px;
+}
+
+.card p {
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 .footer {
@@ -93,3 +140,7 @@ li {
     list-style: none;
 }
 
+h1 {
+    padding: 0;
+    margin: 0;
+}
