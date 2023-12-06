@@ -70,6 +70,10 @@ button {
     border-color: #3b82f6;
 }
 
+.cards {
+    display: flex;
+}
+
 .footer {
     display: flex;
     align-items: center;
